@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F286F922D0E09D500EF2243 /* NRAExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286F912D0E09D500EF2243 /* NRAExampleApp.swift */; };
+		2F286F962D0E09D600EF2243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F286F952D0E09D600EF2243 /* Assets.xcassets */; };
+		2F286F992D0E09D600EF2243 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F286F982D0E09D600EF2243 /* Preview Assets.xcassets */; };
+		2F286FA92D0E0AF100EF2243 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 2F286FA82D0E0AF100EF2243 /* Swinject */; };
+		2F286FAC2D0E0B0900EF2243 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 2F286FAB2D0E0B0900EF2243 /* SwinjectAutoregistration */; };
+		2F286FB22D0E0C5300EF2243 /* DependencyAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FB12D0E0C5300EF2243 /* DependencyAssembler.swift */; };
+		2F286FB42D0E0C7B00EF2243 /* ViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FB32D0E0C7B00EF2243 /* ViewAssembly.swift */; };
+		2F286FB62D0E0CC400EF2243 /* NavigationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FB52D0E0CC400EF2243 /* NavigationAssembly.swift */; };
+		2F286FB92D0E0E5400EF2243 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FB82D0E0E5400EF2243 /* RootView.swift */; };
+		2F286FBB2D0E0E9A00EF2243 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FBA2D0E0E9A00EF2243 /* AppNavigation.swift */; };
+		2F286FBE2D0E0EEE00EF2243 /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FBD2D0E0EEE00EF2243 /* ViewFactory.swift */; };
+		2F286FC12D0E11E000EF2243 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FC02D0E11E000EF2243 /* RedView.swift */; };
+		2F286FC42D0E136700EF2243 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FC32D0E136700EF2243 /* GreenView.swift */; };
+		2F286FC72D0E17DF00EF2243 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FC62D0E17DF00EF2243 /* MainView.swift */; };
+		2F286FCA2D0E1C0900EF2243 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FC92D0E1C0900EF2243 /* FormView.swift */; };
+		2F286FCC2D0E1C3400EF2243 /* FormViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FCB2D0E1C3400EF2243 /* FormViewState.swift */; };
+		2F286FCE2D0E1C3B00EF2243 /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FCD2D0E1C3B00EF2243 /* FormViewModel.swift */; };
+		2F286FD12D0E1D8200EF2243 /* ResultViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FD02D0E1D8200EF2243 /* ResultViewState.swift */; };
+		2F286FD32D0E1D9E00EF2243 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FD22D0E1D9E00EF2243 /* ResultView.swift */; };
+		2F286FD52D0EFD1300EF2243 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FD42D0EFD1300EF2243 /* MainViewModel.swift */; };
+		2F286FD72D0EFD1900EF2243 /* MainViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F286FD62D0EFD1900EF2243 /* MainViewState.swift */; };
+		2F92A8DA2D0F19E900123292 /* NRACore in Frameworks */ = {isa = PBXBuildFile; productRef = 2F92A8D92D0F19E900123292 /* NRACore */; };
+		2F92A8DC2D1048EB00123292 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92A8DB2D1048EB00123292 /* ResultViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F286F8E2D0E09D500EF2243 /* NRAExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRAExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F286F912D0E09D500EF2243 /* NRAExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRAExampleApp.swift; sourceTree = "<group>"; };
+		2F286F952D0E09D600EF2243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F286F982D0E09D600EF2243 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F286FB12D0E0C5300EF2243 /* DependencyAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyAssembler.swift; sourceTree = "<group>"; };
+		2F286FB32D0E0C7B00EF2243 /* ViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAssembly.swift; sourceTree = "<group>"; };
+		2F286FB52D0E0CC400EF2243 /* NavigationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAssembly.swift; sourceTree = "<group>"; };
+		2F286FB82D0E0E5400EF2243 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		2F286FBA2D0E0E9A00EF2243 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		2F286FBD2D0E0EEE00EF2243 /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
+		2F286FC02D0E11E000EF2243 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
+		2F286FC32D0E136700EF2243 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
+		2F286FC62D0E17DF00EF2243 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2F286FC92D0E1C0900EF2243 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		2F286FCB2D0E1C3400EF2243 /* FormViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewState.swift; sourceTree = "<group>"; };
+		2F286FCD2D0E1C3B00EF2243 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		2F286FD02D0E1D8200EF2243 /* ResultViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewState.swift; sourceTree = "<group>"; };
+		2F286FD22D0E1D9E00EF2243 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		2F286FD42D0EFD1300EF2243 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		2F286FD62D0EFD1900EF2243 /* MainViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewState.swift; sourceTree = "<group>"; };
+		2F92A8DB2D1048EB00123292 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F286F8B2D0E09D500EF2243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F92A8DA2D0F19E900123292 /* NRACore in Frameworks */,
+				2F286FA92D0E0AF100EF2243 /* Swinject in Frameworks */,
+				2F286FAC2D0E0B0900EF2243 /* SwinjectAutoregistration in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F286F852D0E09D500EF2243 = {
+			isa = PBXGroup;
+			children = (
+				2F286F902D0E09D500EF2243 /* NRAExample */,
+				2F286F8F2D0E09D500EF2243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F286F8F2D0E09D500EF2243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F286F8E2D0E09D500EF2243 /* NRAExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F286F902D0E09D500EF2243 /* NRAExample */ = {
+			isa = PBXGroup;
+			children = (
+				2F286F912D0E09D500EF2243 /* NRAExampleApp.swift */,
+				2F286F952D0E09D600EF2243 /* Assets.xcassets */,
+				2F286FAD2D0E0C0600EF2243 /* Modules */,
+				2F286F972D0E09D600EF2243 /* Preview Content */,
+			);
+			path = NRAExample;
+			sourceTree = "<group>";
+		};
+		2F286F972D0E09D600EF2243 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F286F982D0E09D600EF2243 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F286FAD2D0E0C0600EF2243 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2F286FAF2D0E0C1F00EF2243 /* Dependency */,
+				2F286FBC2D0E0E9E00EF2243 /* Navigation */,
+				2F286FB02D0E0C2F00EF2243 /* View */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2F286FAF2D0E0C1F00EF2243 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				2F286FB12D0E0C5300EF2243 /* DependencyAssembler.swift */,
+				2F286FB32D0E0C7B00EF2243 /* ViewAssembly.swift */,
+				2F286FB52D0E0CC400EF2243 /* NavigationAssembly.swift */,
+				2F286FBD2D0E0EEE00EF2243 /* ViewFactory.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		2F286FB02D0E0C2F00EF2243 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F286FB72D0E0E4D00EF2243 /* Root */,
+				2F286FC52D0E17D700EF2243 /* Main */,
+				2F286FC22D0E135A00EF2243 /* Green */,
+				2F286FBF2D0E11B600EF2243 /* Red */,
+				2F286FC82D0E1BF800EF2243 /* Form */,
+				2F286FCF2D0E1D6000EF2243 /* Result */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F286FB72D0E0E4D00EF2243 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				2F286FB82D0E0E5400EF2243 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		2F286FBC2D0E0E9E00EF2243 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2F286FBA2D0E0E9A00EF2243 /* AppNavigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		2F286FBF2D0E11B600EF2243 /* Red */ = {
+			isa = PBXGroup;
+			children = (
+				2F286FC02D0E11E000EF2243 /* RedView.swift */,
+			);
+			path = Red;
+			sourceTree = "<group>";
+		};
+		2F286FC22D0E135A00EF2243 /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				2F286FC32D0E136700EF2243 /* GreenView.swift */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		2F286FC52D0E17D700EF2243 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2F286FC62D0E17DF00EF2243 /* MainView.swift */,
+				2F286FD42D0EFD1300EF2243 /* MainViewModel.swift */,
+				2F286FD62D0EFD1900EF2243 /* MainViewState.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2F286FC82D0E1BF800EF2243 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				2F286FC92D0E1C0900EF2243 /* FormView.swift */,
+				2F286FCB2D0E1C3400EF2243 /* FormViewState.swift */,
+				2F286FCD2D0E1C3B00EF2243 /* FormViewModel.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		2F286FCF2D0E1D6000EF2243 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				2F286FD02D0E1D8200EF2243 /* ResultViewState.swift */,
+				2F92A8DB2D1048EB00123292 /* ResultViewModel.swift */,
+				2F286FD22D0E1D9E00EF2243 /* ResultView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F286F8D2D0E09D500EF2243 /* NRAExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F286F9C2D0E09D600EF2243 /* Build configuration list for PBXNativeTarget "NRAExample" */;
+			buildPhases = (
+				2F286F8A2D0E09D500EF2243 /* Sources */,
+				2F286F8B2D0E09D500EF2243 /* Frameworks */,
+				2F286F8C2D0E09D500EF2243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NRAExample;
+			packageProductDependencies = (
+				2F286FA82D0E0AF100EF2243 /* Swinject */,
+				2F286FAB2D0E0B0900EF2243 /* SwinjectAutoregistration */,
+				2F92A8D92D0F19E900123292 /* NRACore */,
+			);
+			productName = NRAExample;
+			productReference = 2F286F8E2D0E09D500EF2243 /* NRAExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F286F862D0E09D500EF2243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2F286F8D2D0E09D500EF2243 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2F286F892D0E09D500EF2243 /* Build configuration list for PBXProject "NRAExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F286F852D0E09D500EF2243;
+			packageReferences = (
+				2F286FA72D0E0AF100EF2243 /* XCRemoteSwiftPackageReference "Swinject" */,
+				2F286FAA2D0E0B0900EF2243 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */,
+				2F92A8D82D0F19E800123292 /* XCRemoteSwiftPackageReference "nra-architecture" */,
+			);
+			productRefGroup = 2F286F8F2D0E09D500EF2243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F286F8D2D0E09D500EF2243 /* NRAExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F286F8C2D0E09D500EF2243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F286F992D0E09D600EF2243 /* Preview Assets.xcassets in Resources */,
+				2F286F962D0E09D600EF2243 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F286F8A2D0E09D500EF2243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F286FCA2D0E1C0900EF2243 /* FormView.swift in Sources */,
+				2F92A8DC2D1048EB00123292 /* ResultViewModel.swift in Sources */,
+				2F286FD72D0EFD1900EF2243 /* MainViewState.swift in Sources */,
+				2F286FB42D0E0C7B00EF2243 /* ViewAssembly.swift in Sources */,
+				2F286FD12D0E1D8200EF2243 /* ResultViewState.swift in Sources */,
+				2F286FCC2D0E1C3400EF2243 /* FormViewState.swift in Sources */,
+				2F286FB22D0E0C5300EF2243 /* DependencyAssembler.swift in Sources */,
+				2F286FD32D0E1D9E00EF2243 /* ResultView.swift in Sources */,
+				2F286FCE2D0E1C3B00EF2243 /* FormViewModel.swift in Sources */,
+				2F286FB92D0E0E5400EF2243 /* RootView.swift in Sources */,
+				2F286FD52D0EFD1300EF2243 /* MainViewModel.swift in Sources */,
+				2F286FBB2D0E0E9A00EF2243 /* AppNavigation.swift in Sources */,
+				2F286FB62D0E0CC400EF2243 /* NavigationAssembly.swift in Sources */,
+				2F286FC42D0E136700EF2243 /* GreenView.swift in Sources */,
+				2F286FC72D0E17DF00EF2243 /* MainView.swift in Sources */,
+				2F286F922D0E09D500EF2243 /* NRAExampleApp.swift in Sources */,
+				2F286FBE2D0E0EEE00EF2243 /* ViewFactory.swift in Sources */,
+				2F286FC12D0E11E000EF2243 /* RedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F286F9A2D0E09D600EF2243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F286F9B2D0E09D600EF2243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F286F9D2D0E09D600EF2243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NRAExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adamszczuchniak.NRAExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F286F9E2D0E09D600EF2243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NRAExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adamszczuchniak.NRAExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F286F892D0E09D500EF2243 /* Build configuration list for PBXProject "NRAExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F286F9A2D0E09D600EF2243 /* Debug */,
+				2F286F9B2D0E09D600EF2243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F286F9C2D0E09D600EF2243 /* Build configuration list for PBXNativeTarget "NRAExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F286F9D2D0E09D600EF2243 /* Debug */,
+				2F286F9E2D0E09D600EF2243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F286FA72D0E0AF100EF2243 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+		2F286FAA2D0E0B0900EF2243 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/SwinjectAutoregistration.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+		2F92A8D82D0F19E800123292 /* XCRemoteSwiftPackageReference "nra-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamszczuchniak/nra-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F286FA82D0E0AF100EF2243 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F286FA72D0E0AF100EF2243 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		2F286FAB2D0E0B0900EF2243 /* SwinjectAutoregistration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F286FAA2D0E0B0900EF2243 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
+			productName = SwinjectAutoregistration;
+		};
+		2F92A8D92D0F19E900123292 /* NRACore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F92A8D82D0F19E800123292 /* XCRemoteSwiftPackageReference "nra-architecture" */;
+			productName = NRACore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2F286F862D0E09D500EF2243 /* Project object */;
+}
